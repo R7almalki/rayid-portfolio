@@ -1453,7 +1453,11 @@ will-change: opacity, transform, filter;
     letter-spacing: 0.08em;
     text-transform: uppercase;
 }
-
+/* Arabic version only */
+html[lang="ar"] .featured-certificate .certificate-badge {
+    right: 28px;
+    left: auto;
+}
 .certificate-badge {
     display: inline-flex;
     align-items: center;
